@@ -1,0 +1,13 @@
+const CustomerTypes = {
+    ADD_CUST: 'ADD_CUST',
+    UPD_CUST: 'UPD_CUST',
+    DLT_CUST: 'DLT_CUST',
+    GET_CUST: 'GET_CUST',
+    LGN_CUST: 'LGN_CUST',
+    SGP_CUST: 'SGP_CUST',
+    OUT_CUST: 'OUT_CUST',
+    GET_CREDITS_CONSUMED: 'GET_CREDITS_CONSUMED',
+    DECREMENT_CREDITS: 'DECREMENT_CREDITS'
+}
+ 
+export default CustomerTypes;

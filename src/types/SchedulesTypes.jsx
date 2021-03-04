@@ -1,0 +1,10 @@
+const SchedulesTypes = {
+    ADD_SCHEDULE: 'ADD_SCHEDULE',
+    UPD_SCHEDULE: 'UPD_SCHEDULE',
+    DLT_SCHEDULE: 'DLT_SCHEDULE',
+    GET_SCHEDULE: 'GET_SCHEDULE',
+    LST_SCHEDULE: 'LST_SCHEDULE',
+    LST_HOURS: 'LST_HOURS'
+}
+ 
+export default SchedulesTypes;

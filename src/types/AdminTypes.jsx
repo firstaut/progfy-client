@@ -1,0 +1,12 @@
+
+const AdminTypes = {
+    LST_CUSTOMER: 'LST_CUSTOMER',
+    LST_COUPONS: 'LST_COUPONS',
+    ADD_COUPONS: 'ADD_COUPONS',
+    UPD_COUPONS: 'UPD_COUPONS',
+    DLT_COUPONS: 'DLT_COUPONS',
+    GET_MACHINE: 'GET_MACHINE',
+    UPD_MACHINE: 'UPD_MACHINE'
+};
+
+export default AdminTypes;
