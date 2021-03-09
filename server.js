@@ -1,5 +1,5 @@
 // server.js
-const { createServer } = require('http')
+const { createServer } = require('https')
 const { parse } = require('url')
 const next = require('next')
 
@@ -29,7 +29,7 @@ app.prepare().then(() => {
     } else {
       handle(req, res, parsedUrl)
     }
-  }).listen(80, (err) => {
+  }).listen(3000, (err) => {
     if (err) throw err
     console.log('> Ready on http://localhost:3000')
   })
