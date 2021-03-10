@@ -247,7 +247,7 @@ export default function Home() {
               instituciones educativas.
             </p>
           </section>
-          <section class="">
+          {/* <section class="">
             <div class="row">
               <div class="col-lg-4 col-md-4 mb-4 mb-md-4 col-mobile">
                 <h5 class="text-uppercase">Links</h5>
@@ -328,7 +328,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
         <div
           class="text-center p-3"
