@@ -10,7 +10,7 @@ import progfyIcon from "../src/assets/img/logo2.jpeg";
 import homeIcon from "../src/assets/img/home.svg";
 import cloudIcon from "../src/assets/img/cloud.png";
 import plcImg from "../src/assets/img/plcc.png";
-import people from "/Users/chirra/Desktop/First Automation/Cliente Progfy/progfy-client/src/components/home/data.js";
+import people from "../src/components/home/data";
 import Slider from "../src/components/home/Slider";
 
 const ContentHome = styled.div`
