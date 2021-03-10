@@ -74,7 +74,7 @@ const DashboardCustomer = ({component: Component}) => {
                             <BtnOption onClick={() => handleChooseOption(options[1])}>Mis horarios</BtnOption>
                         </li>
                         <li className={`list-group-item m-2`}>
-                            <a className="text-center m-0 p-0 d-block" href="http://34.234.92.186/Progfy-setup.zip" download="Progfy-install.zip">Descargar instalador Progfy</a>
+                            <a className="text-center m-0 p-0 d-block" href="http://3.227.226.102/Progfy-desktop.rar" download="Progfy-install.zip">Descargar instalador Progfy</a>
                         </li>
 
                         <li className={`list-group-item m-2 p-0 text-center bg-dark`}>
