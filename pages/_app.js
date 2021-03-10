@@ -17,6 +17,12 @@ function MyApp({ Component, pageProps }) {
             <Head>
               <script src="../../src/assets/js/jquery-3.5.1.min.js"></script>
               <script src="../../src/assets/js/global.js"></script>
+              <link
+                rel="stylesheet"
+                href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+                integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+                crossorigin="anonymous"
+              />
 
               <style>
                 {/* html {

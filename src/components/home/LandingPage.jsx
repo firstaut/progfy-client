@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useContext } from "react";
 import LandingHeader from "./LandingHeader";
 import styled from "@emotion/styled";
 import UserAuthContext from "../../contexts/authenticate/UserAuthContext";
+import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 
 const ContentHome = styled.div`
   height: 92.5vh;

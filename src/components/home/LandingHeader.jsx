@@ -40,7 +40,11 @@ const LandingHeader = () => {
               Cursos
             </Nav.Link>
           </Nav>
-          <Button style={{ color: "white" }} className="ml-auto" href="/login">
+          <button
+            style={{ color: "white" }}
+            className="btn-custom ml-auto"
+            href="/login"
+          >
             {customer && customer.kind === "admin" ? (
               <Link href="/admin">
                 <a>Panel de control</a>
@@ -55,7 +59,7 @@ const LandingHeader = () => {
                 <a>Iniciar sesión</a>
               </Link>
             )}
-          </Button>
+          </button>
         </Navbar.Collapse>
       </div>
     </Navbar>
