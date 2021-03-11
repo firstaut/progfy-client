@@ -113,7 +113,7 @@ const Header = () => {
             <li className={`list-group mt-2`}>
               <a
                 className="btn-custom-2 text-center"
-                href="http://3.227.226.102/Progfy-desktop.zip"
+                href="http://3.227.226.102/Progfy-desktop.rar"
                 download="Progfy-install.zip"
               >
                 Instalador Progfy
