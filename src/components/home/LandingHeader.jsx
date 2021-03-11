@@ -4,8 +4,6 @@ import UserAuthContext from "../../contexts/authenticate/UserAuthContext";
 import Link from "next/link";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Button from "react-bootstrap/Button";
 import progfyLogo from "../../assets/img/progfy.png";
 
 const LandingHeader = () => {
@@ -22,7 +20,7 @@ const LandingHeader = () => {
   }, []);
 
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" className="navbar-custom">
       <div className="container-fluid">
         <Navbar.Brand href="#home">
           <img src={progfyLogo} className="logo" />
