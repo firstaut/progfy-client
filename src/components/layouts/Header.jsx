@@ -139,13 +139,14 @@ const Header = () => {
               Ir al inicio
             </button>
 
-            <button
+            <a
               type="button"
               onClick={handleCloseSession}
+              href="/"
               className="btn btn-info"
             >
               Cerrar Sesión
-            </button>
+            </a>
           </div>
         </Navbar.Collapse>
       </div>

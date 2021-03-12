@@ -137,7 +137,7 @@ const CreateSchedule = (props) => {
 
     Swal.fire({
       icon: "success",
-      title: "Creado correctamente",
+      title: "Horario reservado correctamente",
       timer: 3000,
     });
 
@@ -287,12 +287,14 @@ const CreateSchedule = (props) => {
       ) : null}
       <form onSubmit={handleCreateSchedule} className="mt-5">
         <div className="form-row m-b-25 d-flex justify-content-center align-items-center">
-          <div className="name col-sm-6 text-center text-right">
-            <p style={{ textAlign: "right" }}>Seleccione una fecha</p>
+          <div className="name col-sm-4 text-center text-right">
+            <p style={{ textAlign: "right" }}>
+              Seleccione fecha y hora de la reserva
+            </p>
           </div>
 
-          <div className="value col-sm-6">
-            <div className="col-sm-4 mr-auto input-date">
+          <div className="value col-sm-3">
+            <div className="col-sm-4 mr-auto">
               <div className="row input-date">
                 <div className="row">
                   <input
@@ -306,7 +308,7 @@ const CreateSchedule = (props) => {
               </div>
             </div>
           </div>
-          <div className="btn-coupon mt-4">
+          <div className="btn-coupon col-sm-4 ">
             <button
               type="button"
               onClick={() => setCoupon(true)}
