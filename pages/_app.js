@@ -17,6 +17,7 @@ function MyApp({ Component, pageProps }) {
             <Head>
               <script src="../../src/assets/js/jquery-3.5.1.min.js"></script>
               <script src="../../src/assets/js/global.js"></script>
+              <title>Progfy</title>
               <link
                 rel="stylesheet"
                 href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"

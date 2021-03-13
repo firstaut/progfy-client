@@ -308,22 +308,33 @@ const CreateSchedule = (props) => {
               </div>
             </div>
           </div>
-          <div className="btn-coupon col-sm-4 ">
-            <button
-              type="button"
-              onClick={() => setCoupon(true)}
-              className="btn btn-info"
-            >
-              APLICAR CUPÓN
-            </button>
-          </div>
         </div>
         <div className="col-lg-8 col-md-12 m-auto">
           {credits <= 0 ? (
-            <p className="alert alert-danger text-center mt-3">
-              Ya utilizó el tiempo máximo de hoy
-            </p>
+            <div className="row">
+              <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                <p
+                  className="alert alert-danger text-center"
+                  style={{ width: "100%", height: "100%", fontSize: "13px" }}
+                >
+                  Ya utilizó el tiempo máximo de hoy
+                </p>
+              </div>
+              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                <button
+                  type="button"
+                  onClick={() => setCoupon(true)}
+                  className="btn btn-info"
+                  style={{ width: "100%", height: "100%", fontSize: "13px" }}
+                >
+                  APLICAR CUPÓN
+                </button>
+              </div>
+            </div>
           ) : (
+            <div></div>
+          )}
+          {dateSelected ? (
             <div className="pt-4 mb-4">
               <button
                 className="btn btn-block btn-success col-6 m-auto"
@@ -332,6 +343,8 @@ const CreateSchedule = (props) => {
                 RESERVAR
               </button>
             </div>
+          ) : (
+            <div></div>
           )}
         </div>
 

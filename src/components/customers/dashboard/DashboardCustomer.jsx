@@ -69,7 +69,7 @@ const DashboardCustomer = ({ component: Component }) => {
                 className=""
                 onClick={() => handleChooseOption(options[0])}
               >
-                Crear horario
+                Reservar horario
               </BtnOption>
             </li>
             <li

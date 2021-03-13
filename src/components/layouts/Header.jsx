@@ -97,7 +97,7 @@ const Header = () => {
                 className="mt-2 btn-custom-2"
                 onClick={() => handleChooseOption(options[0])}
               >
-                Crear horario
+                Reservar horario
               </BtnOption>
             </li>
             <li

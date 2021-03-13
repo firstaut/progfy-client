@@ -81,7 +81,7 @@ export default function Home() {
                   style={{ width: "100%" }}
                 ></div>
               </div>
-              <div class="sc-1knjrp2-0 tnjlua-4 hQTiJW bveKLP">
+              <div class="sc-1knjrp2-0 tnjlua-4 hQTiJW cloud-container">
                 <img className="icon" src={cloudIcon} />
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function Home() {
                         <span class="lnr lnr-cog"></span>
                       </a>
                     </div>
-                    <h1 class="heading">Practica desde cualquier lado</h1>
+                    <h1 class="heading">Equipos reales</h1>
                   </div>
                 </div>
                 <div class="bottom">
@@ -132,9 +132,8 @@ export default function Home() {
                       </a>
                       <li class="active">
                         <span class="date">
-                          Conéctate desde cualquier parte del mundo, solo
-                          requiere un ordenador y una conexión a internet para
-                          comenzar a practicar.
+                          Programa,configura y testea equipo industriales
+                          reales. ¡No simulaciones!
                         </span>
                       </li>
                     </ul>
@@ -143,7 +142,7 @@ export default function Home() {
               </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 mb-md-12">
-              <div class="weather-card rain one">
+              <div class="weather-card ben5 one">
                 <div class="top">
                   <div class="wrapper">
                     <div class="mynav">
@@ -154,7 +153,7 @@ export default function Home() {
                         <span class="lnr lnr-cog"></span>
                       </a>
                     </div>
-                    <h1 class="heading">Equipos industriales reales</h1>
+                    <h1 class="heading">Aprende a tu ritmo</h1>
                   </div>
                 </div>
                 <div class="bottom">
@@ -165,9 +164,8 @@ export default function Home() {
                       </a>
                       <li class="active">
                         <span class="date">
-                          A diferencia de otras plataformas, aquí haras uso de
-                          equipo industrial en tiempo real para el
-                          perfeccionamiento de tus habilidades
+                          Usa los equipos a tu propio ritmo. Tú eliges cuándo
+                          practicar.
                         </span>
                       </li>
                     </ul>
@@ -187,7 +185,7 @@ export default function Home() {
                         <span class="lnr lnr-cog"></span>
                       </a>
                     </div>
-                    <h1 class="heading">Flexibilidad de horarios</h1>
+                    <h1 class="heading">Flexibilidad total</h1>
                   </div>
                 </div>
                 <div class="bottom">
@@ -198,9 +196,106 @@ export default function Home() {
                       </a>
                       <li class="active">
                         <span class="date">
-                          Solo tú decidirás cuándo y cuánto tiempo dedicarás a
-                          practicar, reserva tu horario y conéctate a nuestros
-                          equipos de inmediato.
+                          Elige el horario de tu preferencia y conéctate desde
+                          cualquier lugar.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-12">
+              <div className="weather-card  ben4">
+                <div class="top">
+                  <div class="wrapper">
+                    <div class="mynav">
+                      <a href="javascript:;">
+                        <span class="lnr lnr-chevron-left"></span>
+                      </a>
+                      <a href="javascript:;">
+                        <span class="lnr lnr-cog"></span>
+                      </a>
+                    </div>
+                    <h1 class="heading">Experiencia práctica</h1>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <div class="wrapper">
+                    <ul class="forecast">
+                      <a href="javascript:;">
+                        <span class="lnr lnr-chevron-up go-up"></span>
+                      </a>
+                      <li class="active">
+                        <span class="date">
+                          No se trata de programar 1 solo equipo. Controla
+                          procesos industriales completos.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-12">
+              <div class="weather-card rain one">
+                <div class="top">
+                  <div class="wrapper">
+                    <div class="mynav">
+                      <a href="javascript:;">
+                        <span class="lnr lnr-chevron-left"></span>
+                      </a>
+                      <a href="javascript:;">
+                        <span class="lnr lnr-cog"></span>
+                      </a>
+                    </div>
+                    <h1 class="heading">Todas las marcas</h1>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <div class="wrapper">
+                    <ul class="forecast">
+                      <a href="javascript:;">
+                        <span class="lnr lnr-chevron-up go-up"></span>
+                      </a>
+                      <li class="active">
+                        <span class="date">
+                          Integra equipos de diversos fabricantes y sé un
+                          verdadero integrador de sistemas.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-12">
+              <div class="weather-card ben6 one">
+                <div class="top">
+                  <div class="wrapper">
+                    <div class="mynav">
+                      <a href="javascript:;">
+                        <span class="lnr lnr-chevron-left"></span>
+                      </a>
+                      <a href="javascript:;">
+                        <span class="lnr lnr-cog"></span>
+                      </a>
+                    </div>
+                    <h1 class="heading">No necesitas una Super PC</h1>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <div class="wrapper">
+                    <ul class="forecast">
+                      <a href="javascript:;">
+                        <span class="lnr lnr-chevron-up go-up"></span>
+                      </a>
+                      <li class="active">
+                        <span class="date">
+                          No necesitas software de programacion del equipo,
+                          ¡solo instala Progfy App en tu PC y listo!
                         </span>
                       </li>
                     </ul>
