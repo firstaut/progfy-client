@@ -34,7 +34,7 @@ const LandingHeader = () => {
             <Nav.Link href="#link" className="nav-link">
               Equipos
             </Nav.Link>
-            <Nav.Link href="#link" className="nav-link">
+            <Nav.Link href="https://cursos.progfy.com" className="nav-link">
               Cursos
             </Nav.Link>
           </Nav>

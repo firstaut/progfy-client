@@ -83,7 +83,9 @@ const ContainerCoupon = styled.div`
 const CreateSchedule = (props) => {
   const router = useRouter();
 
-  const { customer, addCreditsByCustomer } = useContext(UserAuthContext);
+  const { customer, addCreditsByCustomer, consumed } = useContext(
+    UserAuthContext
+  );
   const { hours, addSchedule, lstHoursByDay } = useContext(ScheduleContext);
 
   const { credits } = customer;
@@ -98,6 +100,11 @@ const CreateSchedule = (props) => {
   const [numberCoupon, setNumberCoupon] = useState("");
 
   const [dateSelected, setDateSelected] = useState("");
+
+  const { schedules, lstSchedulesByCustomer } = useContext(ScheduleContext);
+
+  const assigned =
+    schedules.filter((sch) => sch.status === "activo").length || 0;
 
   const handleCreateSchedule = (e) => {
     e.preventDefault();
@@ -285,6 +292,25 @@ const CreateSchedule = (props) => {
           </form>
         </ContainerCoupon>
       ) : null}
+      <div>
+        <div className="row text-center m-2 border rounded">
+          <div className="col-md-4">
+            <label className="alert alert-light mr-2">
+              Horas disponibles: {credits}h
+            </label>
+          </div>
+          <div className="col-md-4">
+            <label className="alert alert-light mr-2">
+              Horas asignadas: {assigned}h
+            </label>
+          </div>
+          <div className="col-md-4">
+            <label className="alert alert-light mr-2">
+              Horas consumidos: {consumed}h
+            </label>
+          </div>
+        </div>
+      </div>
       <form onSubmit={handleCreateSchedule} className="mt-5">
         <div className="form-row m-b-25 d-flex justify-content-center align-items-center">
           <div className="name col-sm-4 text-center text-right">

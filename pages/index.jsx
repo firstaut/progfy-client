@@ -94,11 +94,16 @@ export default function Home() {
           <h1 className="title">
             Practica online con equipos industriales reales
           </h1>
-          <h2>¡Cuando quieras y donde quieras!</h2>
-          <div className="mt-5 button-center">
+          <h2 className="title-2">¡Cuando quieras y donde quieras!</h2>
+          <h3>Comienza tu demo gratis ¡YA!</h3>
+          <div className="mt-4 button-center">
             <div>
-              <button className="btn-custom">Conoce mas</button>
-              <button className="btn-custom ml-3">Demo gratis</button>
+              <button
+                className="btn-custom"
+                style={{ width: "200px", height: "65px", fontSize: "23px" }}
+              >
+                Demo gratis
+              </button>
             </div>
           </div>
         </div>

@@ -44,7 +44,9 @@ button {
   background-color: white;
 }
 
-@media (max-width: 992px) {
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: transparent !important;
 }
 
 .nav-none {
@@ -2186,6 +2188,20 @@ input {
   font-weight: 700;
   color: #000000;
   -webkit-font-smoothing: antialiased;
+}
+
+.title-2 {
+  font-weight: 500;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 0.75rem;
+}
+
+.title-3 {
+  font-weight: 300;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 0.75rem;
 }
 
 /* ==========================================================================
