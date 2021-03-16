@@ -84,7 +84,7 @@ const DashboardCustomer = ({ component: Component }) => {
             <li className={`btn btn-outline-info p-2 mt-2`}>
               <a
                 style={{ color: "white" }}
-                href="http://3.227.226.102/Progfy-desktop.zip"
+                href="https://3.227.226.102/Progfy-desktop.zip"
                 download="Progfy-install.zip"
               >
                 Instalador Progfy
