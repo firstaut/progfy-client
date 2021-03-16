@@ -15,10 +15,6 @@ function MyApp({ Component, pageProps }) {
         <ScheduleService>
           <Fragment>
             <Head>
-              <meta
-                http-equiv="Content-Security-Policy"
-                content="upgrade-insecure-requests"
-              ></meta>
               <script src="../../src/assets/js/jquery-3.5.1.min.js"></script>
               <script src="../../src/assets/js/global.js"></script>
               <title>Progfy</title>
