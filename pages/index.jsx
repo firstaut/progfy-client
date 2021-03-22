@@ -95,14 +95,13 @@ export default function Home() {
             Practica online con equipos industriales reales
           </h1>
           <h2 className="title-2">¡Cuando quieras y donde quieras!</h2>
-          <h3>Comienza tu demo gratis ¡YA!</h3>
           <div className="mt-4 button-center">
             <div>
               <button
                 className="btn-custom"
                 style={{ width: "200px", height: "65px", fontSize: "23px" }}
               >
-                Demo gratis
+                ¡Comienza tu prueba gratis!
               </button>
             </div>
           </div>
