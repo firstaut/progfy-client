@@ -99,7 +99,7 @@ export default function Home() {
             <div>
               <button
                 className="btn-custom"
-                style={{ width: "200px", height: "65px", fontSize: "23px" }}
+                style={{ width: "500px", height: "65px", fontSize: "23px" }}
               >
                 ¡Comienza tu prueba gratis!
               </button>

@@ -17,10 +17,6 @@ function MyApp({ Component, pageProps }) {
             <Head>
               <script src="../../src/assets/js/jquery-3.5.1.min.js"></script>
               <script src="../../src/assets/js/global.js"></script>
-              <meta
-                http-equiv="Content-Security-Policy"
-                content="block-all-mixed-content"
-              ></meta>
               <title>Progfy</title>
               <link
                 rel="stylesheet"

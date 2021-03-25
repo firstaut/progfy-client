@@ -116,7 +116,7 @@ const Header = () => {
                 href="http://3.227.226.102/Progfy-desktop.zip"
                 download="Progfy-install.zip"
               >
-                Instalador Progfy
+                Descarga Progfy App
               </a>
             </li>
 
